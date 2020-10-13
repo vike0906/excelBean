@@ -1,5 +1,7 @@
 # excelBean
-一款基于poi4.1.2封装的excel与java bean转换工具
+#### 一款基于poi4.1.2封装的excel与java bean转换工具
++ 该工具类主要解决excel文件导入与导出时需要手动给对应Bean赋值/取值，枯燥且代码量巨大
++ 工具类的主要实现方式是注解配合Java反射完成Beany与excel文件的赋值/取值
 + 使用方式
   - 读取excel文件时:
   ```
